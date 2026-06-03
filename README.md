@@ -10,12 +10,12 @@
     <br />
     Write a test program named TestFan that creates two Fan objects. For the first object, assign the maximum speed, radius 10, color yellow, and turn it on. Assign medium speed, radius 5, color blue, and turn it off for the second object. Display each object’s speed, radius, color, and on properties.<br />
 <br />
-3.  Car Class<br />
+2.  Car Class<br />
     Write a class named Car that has the following data attributes:<br />
     • _ _year_model (for the car’s year model)<br />
     • _ _make (for the make of the car)<br />
     • _ _speed (for the car’s current speed)<br />
-    
+    <br />
     The Car class should have an _ _init_ _ method that accepts the car’s year model and make as arguments. These values should be assigned to the object’s _ _year_model and _ _make data attributes. It should also assign 0 to the _ _speed data attribute.<br />
     <br />
     The class should also have the following methods:<br />
@@ -28,7 +28,7 @@
     <br />
     Next, design a program that creates a Car object then calls the accelerate method five times. After each call to the accelerate method, get the current speed of the car and display it. Then call the brake method five times. After each call to the brake method, get the current speed of the car and display it.<br />
 <br />
-4. Pet Class<br />
+3. Pet Class<br />
     Write a class named Pet, which should have the following data attributes:<br />
     • _ _name (for the name of a pet)<br />
     • _ _animal_type (for the type of animal that a pet is. Example values are ‘Dog’, ‘Cat’, and ‘Bird’)<br />
