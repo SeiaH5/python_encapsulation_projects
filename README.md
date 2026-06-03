@@ -1,5 +1,5 @@
 1. The Fan class
-    Design a class named Fan to represent a fan. The class contains:
+    Design a class named Fan to represent a fan. The class contains: <br />
     ■ Three constants named SLOW, MEDIUM, and FAST with the values 1, 2, and 3 to denote the fan speed.
     ■ A private int data field named speed that specifies the speed of the fan.
     ■ A private bool data field named on that specifies whether the fan is on (the default is False).
