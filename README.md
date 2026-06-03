@@ -10,7 +10,7 @@
     
     Write a test program named TestFan that creates two Fan objects. For the first object, assign the maximum speed, radius 10, color yellow, and turn it on. Assign medium speed, radius 5, color blue, and turn it off for the second object. Display each object’s speed, radius, color, and on properties.
 
-2.  Car Class
+3.  Car Class
     Write a class named Car that has the following data attributes:
     • _ _year_model (for the car’s year model)
     • _ _make (for the make of the car)
@@ -28,7 +28,7 @@
     
     Next, design a program that creates a Car object then calls the accelerate method five times. After each call to the accelerate method, get the current speed of the car and display it. Then call the brake method five times. After each call to the brake method, get the current speed of the car and display it.
 
-3. Pet Class
+4. Pet Class
     Write a class named Pet, which should have the following data attributes:
     • _ _name (for the name of a pet)
     • _ _animal_type (for the type of animal that a pet is. Example values are ‘Dog’, ‘Cat’, and ‘Bird’)
