@@ -3,14 +3,18 @@ class Fan:
     MEDIUM = 2
     FAST = 3
 
-    def __init__(self, speed=SLOW, radius=5, color="blue", on=False):
+    def __init__(self, speed=SLOW, on=False, radius=5.00, color="Blue"):
         self.__speed = speed
+        self.__on = on
         self.__radius = radius
         self.__color = color
-        self.__on = on
 
+    # Getters
     def get_speed(self):
         return self.__speed
+
+    def get_on(self):
+        return self.__on
 
     def get_radius(self):
         return self.__radius
@@ -18,11 +22,12 @@ class Fan:
     def get_color(self):
         return self.__color
 
-    def get_on(self):
-        return self.__on
-
+    # Setters
     def set_speed(self, speed):
         self.__speed = speed
+
+    def set_on(self, on):
+        self.__on = on
 
     def set_radius(self, radius):
         self.__radius = radius
@@ -30,6 +35,12 @@ class Fan:
     def set_color(self, color):
         self.__color = color
 
-    def set_on(self, on):
-        self.__on = on
+    #Display Output
+    def display_specs(self):
+        status = "ON" if self.__on else "OFF"
+
+        print(f"Speed  : {self.__speed}")
+        print(f"Radius : {self.__radius} units")
+        print(f"Color  : {self.__color}")
+        print(f"Status : {status}")
 
