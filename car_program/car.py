@@ -1,7 +1,6 @@
 from datetime import datetime
 
 class Car:
-    
     def __init__(self, year_model, make):
         current_year = datetime.now().year
 
