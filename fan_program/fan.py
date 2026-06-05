@@ -42,3 +42,4 @@ class Fan:
         print(f"Speed  : {self.__speed}")
         print(f"Radius : {self.__radius} units")
         print(f"Color  : {self.__color}")
+        print(f"Status : {status}")
